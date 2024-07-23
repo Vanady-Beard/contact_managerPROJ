@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Contact</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Add a New Contact</h1>
+    {% if error %}
+    <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <form method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="phone_number">Phone Number:</label>
+        <input type="text" id="phone_number" name="phone_number" required>
+        <button type="submit">Add</button>
+    </form>
+    <a href="{{ url_for('display_contacts') }}">Back to Contacts</a>
+</body>
+</html>
+
+

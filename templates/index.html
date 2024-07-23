@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Management System</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <h1>Contact Management System</h1>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('display_contacts') }}">Display Contacts</a></li>
+            <li><a href="{{ url_for('add_contact') }}">Add Contact</a></li>
+            <li><a href="{{ url_for('export_contacts') }}">Export Contacts</a></li>
+            <li><a href="{{ url_for('import_contacts') }}">Import Contacts</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+

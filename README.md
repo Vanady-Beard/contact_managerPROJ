@@ -1,4 +1,22 @@
-https://github.com/Vanady-Beard/contacts_management.git
+https://github.com/Vanady-Beard/contact_managerPROJ.git
+
+
+# Contact Management System
+
+A simple contact management system built with Flask.
+
+## Features
+- Add, edit, delete, and display contacts
+- Export and import contacts
+
+## Running Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vanady-Beard/contact_managerPROJ.git
+
+
+
 
 In the beginning of the code, started off using the Import re in order to use REGEX and lastly created a empty string where all the contacts will be stored.
 
