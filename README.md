@@ -1,6 +1,5 @@
 https://github.com/Vanady-Beard/contact_managerPROJ.git
 
-
 # Contact Management System
 
 A simple contact management system built with Flask.
@@ -9,10 +8,25 @@ A simple contact management system built with Flask.
 - Add, edit, delete, and display contacts
 - Export and import contacts
 
-## Running Locally
+## Technologies Used
+- Flask
+- Python
+- HTML
+- CSS
+- Gunicorn
+- Heroku
+
+## Live Demo
+Check out the live application [here]https://contact-manage-app-e69ba562a63c.herokuapp.com
+
+## Setup Instructions
+
+### Running Locally
 
 1. Clone the repository:
    ```bash
+
+
    git clone https://github.com/Vanady-Beard/contact_managerPROJ.git
 
 
